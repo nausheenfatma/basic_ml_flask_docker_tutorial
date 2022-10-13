@@ -23,6 +23,6 @@ docker build  --no-cache --tag ml-flask-docker-3 .
 docker run -d -p 5000:5000 ml-flask-docker-3
 ```
 
-## Check the conatiner app running on web-browser
+## Check the container app running on web-browser
 
 ![Alt text](snippets/app.png)
