@@ -1,4 +1,4 @@
-# basic_ml_flask_tutorial
+# basic_ml_flask_docker_tutorial
 
 This tutorial is how to run a very basic ML model prediction using flask web-framework and on docker container
 
