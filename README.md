@@ -10,8 +10,10 @@ I did re-structure and edit some of the code for better file organization for th
 ## Lets focus on the docker related files of interest here
 
 1. open ```dockerfile``` : This is the script to build docker image
-
-The WORKDIR instruction sets the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile
+FROM: A Dockerfile must begin with a FROM instruction. The FROM instruction specifies the Parent Image from which you are building. In our case we took ubuntu base image. 
+WORKDIR: The WORKDIR instruction sets the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile. 
+There when we call COPY in the later lines, it knows the src path, where to copy from. 
+COPY . .  Means copy everthing in src current folder, to the destinations current path
 
 Best documentation to undeerstand more options : https://docs.docker.com/engine/reference/
 
