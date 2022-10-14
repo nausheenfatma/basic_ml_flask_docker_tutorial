@@ -1,11 +1,11 @@
 # basic_ml_flask_docker_tutorial
 
-This tutorial is how to run a very basic ML model prediction using flask web-framework and on docker container
+This tutorial is how to run a very basic ML model prediction using flask web-framework inside a docker container
 
-Since this code is more about how to run the prediction code using docker container, I took an existing ML model code: https://github.com/hoshangk/machine_learning_model_using_flask_web_framework. This was done purposely to keep the modelling part abstracted out and treated the ML model as a blackbox provided by some other team.
 
-I re-structured and edited some of the code for better understanding in the tutorial.
-This repo is primarily a tutorial on how to packege an ML prediction web-app running on flask on a docker container.
+Since this code is more about how to run the ML prediction code inside a docker container, I took an existing ML model code: https://github.com/hoshangk/machine_learning_model_using_flask_web_framework. This was done purposely to keep the ML modelling + flask app building part(as I already covered them in previous tutorial) abstracted out and treat them as a blackbox provided by some other team.
+
+I did re-structure and edit some of the code for better file organization for this tutorial.
 
 ## Lets focus on the files of interest here
 
