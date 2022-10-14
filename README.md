@@ -11,7 +11,7 @@ I did re-structure and edit some of the code for better file organization for th
 
 1. open ```dockerfile``` : This is the script to build docker image
 
-    FROM: A Dockerfile must begin with a FROM instruction. The FROM instruction specifies the Parent Image from which you are building. In our case we took ubuntu base image. 
+    FROM: A Dockerfile must begin with a FROM instruction. The FROM instruction specifies the Parent Image from which you are building. In our case we took python base image. 
     
     RUN executes the command to install all the files in requirements.txt within the docker constaine to install all the dependencies required to run the application. This neatly installs only the specific dependencies and libraries mentioned in requirements.txt 
 
