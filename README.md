@@ -13,7 +13,7 @@ I did re-structure and edit some of the code for better file organization for th
 
     FROM: A Dockerfile must begin with a FROM instruction. The FROM instruction specifies the Parent Image from which you are building. In our case we took ubuntu base image. 
     
-    RUN executes the command. 
+    RUN executes the command to install all the files in requirements.txt within the docker constaine to install all the dependencies required to run the application. This neatly installs only the specific dependencies and libraries mentioned in requirements.txt 
 
     WORKDIR: The WORKDIR instruction sets the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile. 
     There when we call COPY in the later lines, it knows the src path, where to copy from. 
