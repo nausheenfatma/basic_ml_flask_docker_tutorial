@@ -7,7 +7,7 @@ Since this code is more about how to run the ML prediction code inside a docker 
 
 I did re-structure and edit some of the code for better file organization for this tutorial.
 
-## Lets focus on the files of interest here
+## Lets focus on the docker related files of interest here
 
 1. open ```dockerfile``` : This is the script to build docker image
 2. check ```requirements.txt``` This is where we tell what exact dependencies the image should have. The whole purpose of docker is to pass over dependencies like these in isolated container environnment so that it can be run on any machine without creating any conflicts on the destination system machines preinstalled dependencies or other applications and/or containers.
