@@ -20,7 +20,7 @@ I did re-structure and edit some of the code for better file organization for th
 
     COPY . .  Means copy everthing in src current folder, to the destinations current path
 
-Best documentation to undeerstand more options : https://docs.docker.com/engine/reference/
+Best documentation to understand more options is the official one: https://docs.docker.com/engine/reference/
 
 2. check ```requirements.txt``` This is where we tell what exact dependencies the image should have. The whole purpose of docker is to pass over dependencies like these in isolated container environnment so that it can be run on any machine without creating any conflicts on the destination system machines preinstalled dependencies or other applications and/or containers.
 3. check ```.dockerignore``` : This is the file to put files/folders eg. log files to ignore while building docker image. In our case we want to skip the salary_dataset we used to create the model. Since we are already passing the model, and we are using the model directly in the web application ```app.py```, we can skip put the dataset which can make the image heavy.
